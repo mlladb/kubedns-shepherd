@@ -3,7 +3,7 @@ entries:
   kubedns-shepherd:
   - apiVersion: v2
     appVersion: v0.2.2
-    created: "2024-10-11T06:38:24.292932252Z"
+    created: "2024-10-15T01:26:59.964765436Z"
     dependencies:
     - alias: certmanager
       condition: certmanager.enabled
@@ -13,11 +13,11 @@ entries:
     description: A Kubernetes controller that manages the DNS configuration of workloads,
       ensuring efficient and reliable way to configure DNS within your Kubernetes
       cluster.
-    digest: b95630fee7d7c88daa7fbfc9fdd9f286d71a588b49ebf3d3229559584fe150fd
+    digest: fd038a089baec562af9dd328a084cab73b6dddae0e6ad4ef2bcb5697d1506ef2
     name: kubedns-shepherd
     type: application
     urls:
-    - https://eminaktas.github.io/kubedns-shepherd/kubedns-shepherd-0.2.2.tgz
+    - https://mlladb.github.io/kubedns-shepherd/kubedns-shepherd-0.2.2.tgz
     version: 0.2.2
   - apiVersion: v2
     appVersion: v0.2.1
@@ -73,4 +73,4 @@ entries:
     urls:
     - https://eminaktas.github.io/kubedns-shepherd/kubedns-shepherd-0.1.4.tgz
     version: 0.1.4
-generated: "2024-10-11T06:38:24.287995863Z"
+generated: "2024-10-15T01:26:59.95950011Z"
